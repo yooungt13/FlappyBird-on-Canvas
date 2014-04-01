@@ -66,7 +66,7 @@ FlappyBird.prototype = {
 		image.src = "img/bird.png";		
 		image.onload = function(){
 			this.bird = new Bird(this.startX, this.startY, image);
-			this.bird.draw(c, "down");
+			//this.bird.draw(c, "down");
 		}.bind(this);
 
 		//障碍物  
